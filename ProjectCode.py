@@ -25,7 +25,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.width', 1000)
 
-dfBridges = pd.read_csv("C:\\Users\\rdodg\\eclipse-workspace\\Project\\BridgesData.csv")
+dfBridges = pd.read_csv("Bridges.csv")
 
 
 def bridgeMap(df):
