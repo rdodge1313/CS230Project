@@ -133,9 +133,9 @@ def bridgeSelect():
     selection = st.radio("Select a famous Georgia bridge", imageOptions)
     
     #Links to the images used
-    talmadge_memorial_bridge = "C:\\Users\\rdodg\\eclipse-workspace\\Project\\TalmadgeMemorialBridge.jpg"
-    sidney_lanier_bridge = "C:\\Users\\rdodg\\eclipse-workspace\\Project\\SidneyLanierBridge.jpg"
-    archibald_butt_memorial_bridge = "C:\\Users\\rdodg\\eclipse-workspace\\Project\\ArchibaldButtMemorialBridge.jpg"
+    talmadge_memorial_bridge = "TalmadgeMemorialBridge.jpg"
+    sidney_lanier_bridge = "SidneyLanierBridge.jpg"
+    archibald_butt_memorial_bridge = "ArchibaldButtMemorialBridge.jpg"
     
     #If statement that displays the image that corresponds with the radio selection
     if selection == imageOptions[0]:
